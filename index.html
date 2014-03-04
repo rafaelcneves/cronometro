@@ -1,0 +1,24 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR">
+  <head>
+    <title>Cron&ocirc;metro Online</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery-hotkeys.js"></script>
+    <script type="text/javascript" src="funcoes.js"></script>
+  </head>
+  <body>
+  <div id="principal">
+    <div class="primario">
+      <div class="box">
+        <div id="difference">00:00:000</div>
+      </div>
+      <div id="acoes">
+        <a href="javascript:startCounting(pause_time)" id="start_button" title="Utilize a barra de espaço para iniciar a contagem">Iniciar<span>barra de espa&ccedil;o</span></a>
+        <a style="display: none;" href="javascript:unstart()" id="stop_button" title="Utilize a barra de espaço para parar a contagem">Parar<span>barra de espa&ccedil;o</span></a>
+        <a href="javascript:clear()" id="esc_button" title="Utilize a tecla ESC para zerar a contagem">Zerar<span>esc</span></a>
+      </div>
+    </div>
+  </body>
+</html>
