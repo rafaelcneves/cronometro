@@ -1,4 +1,4 @@
-Cronometro
+Timer
 ==========
 
 Cronometro simples com JS.
